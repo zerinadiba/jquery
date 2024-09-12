@@ -1,0 +1,401 @@
+.ps{
+  background-color: yellow;
+}
+
+.pht {
+    background: #dad;
+    font-weight: bold;
+  }
+
+
+  .btnspan {
+    background: #def3ca;
+    padding: 3px;
+    float: left;
+  }
+
+   
+
+  .pst{
+     width: 400px;
+  }
+
+  #block {
+    background-color: #bca;
+    width: 100px;
+    border: 1px solid green;
+  }
+
+
+  .man {
+    position:relative;
+    background-color: #abc;
+    left: 50px;
+    width: 90px;
+    height: 90px;
+    margin: 5px;
+  }
+
+
+  .ansp {
+    color: red;
+    cursor: pointer;
+  }
+  .fid {
+    margin: 3px;
+    width: 80px;
+    display: none;
+    height: 80px;
+    float: left;
+  }
+  #one {
+    background: #f00;
+  }
+  #two {
+    background: #0f0;
+  }
+  #three {
+    background: #00f;
+  }
+
+   .pfo {
+    font-size: 150%;
+    cursor: pointer;
+  }
+
+.dstop {
+    position: relative;
+    background-color: #abc;
+    left: 0px;
+    top: 30px;
+    width: 60px;
+    height: 60px;
+    margin: 5px;
+  }
+
+
+.bsd {
+    background-color: #abc;
+    border: 2px solid black;
+    width: 200px;
+    height: 80px;
+    margin: 10px;
+  }
+
+
+
+.bq{
+    margin: 3px;
+    width: 40px;
+    height: 40px;
+    position: relative;
+    left: 0px;
+    top: 30px;
+    background: green;
+    display: none;
+  }
+  .bq.newcolor {
+    background: blue;
+  }
+
+.bmove {
+    margin: 3px;
+    width: 40px;
+    height: 40px;
+    position: relative;
+    left: 0px;
+    top: 30px;
+    background: green;
+    display: none;
+  }
+  .bmove.newcolor {
+    background: red;
+  }
+
+  .pid {
+    width: 50px;
+    height: 30px;
+    margin: 5px;
+    float: left;
+    background: green;
+  }
+
+  .togof {
+    width: 50px;
+    height: 30px;
+    margin: 5px;
+    float: left;
+    background: red;
+  }
+
+
+  .ddq {
+    margin: 3px;
+    width: 50px;
+    position: relative;
+    height: 50px;
+    left: 10px;
+    top: 30px;
+    background-color: yellow;
+  }
+  .ddq.red {
+    background-color: red;
+  }
+
+
+  .pp {
+    margin: 4px;
+    font-size: 16px;
+    font-weight: bolder;
+    cursor: pointer;
+  }
+  .blue {
+    color: blue;
+  }
+  .highlight {
+    background: yellow;
+  }
+
+
+
+  .pp2 {
+    margin: 4px;
+    font-size: 16px;
+    font-weight: bolder;
+    cursor: pointer;
+  }
+  .blue2 {
+    color: blue;
+  }
+  .highlight1 {
+    background: red;
+  }
+
+  .pp3{
+
+     margin: 4px;
+      font-size: 16px;
+      font-weight: bolder;
+    }
+    .bluee {
+      color: blue;
+    }
+    .under {
+      text-decoration: underline;
+    }
+    .highlight2 {
+      background: yellow;
+    }
+
+    .p1{
+    margin: 8px;
+    font-size: 16px;
+  }
+  .selected {
+    color: red;
+  }
+
+
+  .pp4 {
+    margin: 8px;
+    font-size: 16px;
+  }
+  .selected {
+    color: red;
+  }
+  .highlight {
+    background: yellow;
+  }
+
+
+  .pp5 {
+    margin: 8px;
+    font-size: 16px;
+  }
+  .selected {
+    color: blue;
+  }
+  .highlight {
+    background: yellow;
+  }
+
+  .dcss {
+    width: 60px;
+    height: 60px;
+    margin: 5px;
+    float: left;
+  }
+
+
+  .dbss{
+    height: 50px;
+    margin: 5px;
+    padding: 5px;
+    float: left;
+  }
+  #box1 {
+    width: 50px;
+    color: yellow;
+    background-color: blue;
+  }
+  #box2 {
+    width: 80px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(15, 99, 30);
+  }
+  #box3 {
+    width: 40px;
+    color: #fcc;
+    background-color: #123456;
+  }
+  #box4 {
+    width: 70px;
+    background-color: #f11;
+  }
+
+  .dihi{
+    width: 50px;
+    height: 70px;
+    float: left;
+    margin: 5px;
+    background: rgb(255,140,0);
+    cursor: pointer;
+  }
+
+  .dinhi {
+  width: 60px;
+  padding: 10px;
+  height: 70px;
+  float: left;
+  margin: 5px;
+  background: red;
+  cursor: pointer;
+}
+.mod {
+  background: blue;
+  cursor: default;
+}
+
+.dinwid {
+width: 60px;
+padding: 10px;
+height: 50px;
+float: left;
+margin: 5px;
+background: red;
+cursor: pointer;
+}
+.mod {
+background: blue;
+cursor: default;
+}
+
+
+.dp {
+    padding: 15px;
+  }
+  .p2 {
+    margin-left: 10px;
+  }
+
+  .mm1{
+    margin:34px ;
+  }
+  .mm2{
+    margin:67px ;
+  }
+  .mm3{
+    margin:84px ;
+  }
+  .mm4{
+    margin:88px ;
+  }
+  .mm5{
+    margin: 70px;
+  }
+  .mm6{
+    margin: 128px;
+  }
+
+
+  .demo {
+    background: #ccc none repeat scroll 0 0;
+    border: 3px solid #666;
+    margin: 5px;
+    padding: 5px;
+    position: relative;
+    width: 200px;
+    height: 100px;
+    overflow: auto;
+  }
+  .pscr {
+    margin: 10px;
+    padding: 5px;
+    border: 2px solid #666;
+    width: 1000px;
+    height: 1000px;
+  }
+
+  .dohi {
+    width: 50px;
+    padding: 10px;
+    height: 60px;
+    float: left;
+    margin: 5px;
+    background: red;
+    cursor: pointer;
+  }
+  .mod1 {
+    background: blue;
+    cursor: default;
+  }
+
+  .ddbl {
+    background: blue;
+    color: white;
+    height: 100px;
+    width: 150px;
+ }
+  .ddbl.dbl {
+    background: yellow;
+    color: black;
+  }
+
+
+   div.out {
+    width: 40%;
+    height: 120px;
+    margin: 0 15px;
+    background-color: #d6edfc;
+    float: left;
+  }
+  div.in {
+    width: 60%;
+    height: 60%;
+    background-color: #fc0;
+    margin: 10px auto;
+  }
+  p {
+    line-height: 1em;
+    margin: 0;
+    padding: 0;
+  }
+
+
+
+  .pht {
+    margin: 8px;
+    font-size: 20px;
+    color: blue;
+    cursor: pointer;
+  }
+  b {
+    text-decoration: underline;
+  }
+.bht {
+    cursor: pointer;
+  }
+
+
+
+  

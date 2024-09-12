@@ -1,0 +1,490 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>jquery</title>
+	<!--css links-->
+	<link rel="stylesheet"href="css/bootstrap.css">
+	<link rel="stylesheet"href="css/style.css">
+	<link rel="stylesheet"href="css/media.css">
+</head>
+<body>
+
+
+	<div class="container">
+		<!--ex1--><hr>
+		<h2> 1.click the button to show alert</h2>
+		<button class="btn btn-dark" id="btn" type="button"> show alert
+			
+		</button>
+
+
+		<!--ex2--><hr>
+		<h2> 2.click the button to show/hide the element</h2>
+		<button class="btn btn-dark" id="btns" type="button"> show 	
+		</button>
+		<button class="btn btn-dark" id="btnh" type="button"> hide	
+		</button>
+		<h3 id="sh">Lorem ipsum dolor sit amet</h3>
+
+
+
+<!--ex3--><hr>
+		<h2> 3.click the button to toggle the element</h2>
+		<button class="btn btn-dark" id="btnt" type="button"> toggle 	
+		</button>
+<h3 id="te">Lorem ipsum dolor sit amet</h3>
+
+
+<!--ex4--><hr>
+		<h2> 4.click the button to fade the element</h2>
+		<button class="btn btn-dark" id="btnfs" type="button"> show 	
+		</button>
+		<button class="btn btn-dark" id="btnfh" type="button"> hide	
+		</button>
+		<h3 id="fsh">Lorem ipsum dolor sit amet</h3>
+
+
+<!--ex5--><hr>
+		<h2> 5.click the button to fade toggle the element</h2>
+		<button class="btn btn-dark" id="btnft" type="button"> toggle 	
+		</button>
+<h3 id="fte">Lorem ipsum dolor sit amet</h3>
+
+
+
+<!--ex6--><hr>
+<h2> 6.click the button to show the element</h2>
+<button class="btn btn-dark" id="btnsh" type="button">Show it</button>
+<p class="ps" style="display: none">Hello  </p>
+ 
+
+
+
+
+<!--ex7--><hr>
+<h2> 7.click the button to hide the element</h2>
+<p class="ph">Hello</p>
+<a class="ah" href="#">Click to hide me too</a>
+
+
+
+<!--ex8--><hr>
+<h2> 8.click the button to hide the paragraph</h2>
+
+<button class="btn btn-dark" id="btntt">Hide 'em</button>
+<p class="pht">Hiya</p>
+<p class="pht">Such interesting text,</p>
+
+
+
+
+
+<!--ex9--><hr>
+<h2> 9.click the button to slide toggle the paragraph</h2>
+
+<button class="btn btn-dark" id="btnst" type="button">Slide toggle</button>
+
+<p class="pst">
+  This is the paragraph to end all paragraphs.  You
+  should feel <em>lucky</em> to have seen such a paragraph in
+  your life.  Congratulations!
+</p>
+
+
+<!--ex10--><hr>
+
+<h2> 10.click the button to show  the animation</h2>
+
+<button id="go">&raquo; Run</button>
+<div id="block">Hello!</div>
+ 
+
+
+<!--ex11--><hr>
+
+<h2> 11.click the button to move  the animation</h2>
+
+<button id="left">&laquo;</button>
+<button id="right">&raquo;</button>
+<div class="man"></div>
+ 
+
+
+
+
+<!--ex12--><hr>
+
+<h2> 12.click the button to fadeIn</h2>
+
+<span class="ansp">Click here...</span>
+<div id="one" class="fid"></div>
+<div id="two" class="fid"></div>
+<div id="three" class="fid"></div>
+
+
+
+
+<!--ex13--><hr>
+
+<h2> 13.click the line to fadeOut</h2>
+
+
+<p class="pfo">
+  If you click on this paragraph
+  you'll see it just fade away.
+</p>
+
+
+<!--ex14--><hr>
+
+<h2> 14.click the button to fadetoggle</h2>
+
+
+<button class="btnftog1">fadeToggle p1</button>
+<button class="btnftog2">fadeToggle p2</button>
+<p class="ptog1">This paragraph has a slow, linear fade.</p>
+<p class="ptog1">This paragraph has a fast animation.</p>
+<div id="log"></div>
+
+
+<!--ex15--><hr>
+
+<h2> 15.click the button to stop the element</h2>
+
+<button id="go">Go</button>
+<button id="stop">STOP!</button>
+<button id="back">Back</button>
+<div class="dstop"></div>
+
+
+
+
+<!--ex16--><hr>
+
+<h2> 16.click the button to slidetoggle  the element</h2>
+
+
+<button id="toggle">slideToggle</button>
+<div class="bsd"></div>
+ 
+
+
+
+<!--ex17--><hr>
+
+<h2> 17.click the word to queue  the element</h2>
+
+
+Click here...
+<div class="bq"></div>
+ 
+
+
+<!--ex18--><hr>
+
+<h2> 18.click the button to move queue  the element</h2>
+
+
+<button id="start">Start</button>
+<button id="stop">Stop</button>
+<div class="bmove"></div>
+ 
+
+
+
+
+<!--ex19--><hr>
+
+<h2> 19.click the button to interval  the element</h2>
+
+
+<p class="pin"><input type="button" value="Run"></p>
+<div class="pid"></div>
+ 
+
+
+
+<!--ex20--><hr>
+
+<h2> 20.click the button to toggle fx off  the element</h2>
+
+
+
+<input class="inof" type="button" value="Run">
+<button class="btntogof">Toggle fx</button>
+<div class="togof"></div>
+
+
+
+
+
+<!--ex21--><hr>
+
+<h2> 21.click the button to dequeue  the element</h2>
+
+
+<button class="btndq">Start</button>
+<div class="ddq"></div>
+ 
+
+
+
+<!--ex22--><hr>
+
+<h2> 22.click the line to fadeto  the element</h2>
+
+
+
+<p class="pft">
+Click this paragraph to see it fade.
+</p>
+ 
+<p class="pft1">
+Compare to this one that won't fade.
+</p>
+
+
+<!--ex23--><hr>
+
+<h2> 23.toggle class</h2>
+
+
+
+<p class="blue pp">Click to toggle</p>
+<p class="blue highlight pp">highlight</p>
+<p class="blue pp">on these</p>
+<p class="blue pp">paragraphs</p>
+
+
+
+
+
+<!--ex24--><hr>
+
+<h2> 24.toggle class2</h2>
+
+<p class="blue2 pp2">Click to toggle (<span class="stog">clicks: 0</span>)</p>
+<p class="blue2 highlight1 pp2">highlight (<span class="stog">clicks: 0</span>)</p>
+<p class="blue2 pp2">on these (<span class="stog">clicks: 0</span>)</p>
+<p class="blue2 pp2">paragraphs (<span class="stog">clicks: 0</span>)</p>
+ 
+<!--ex25--><hr>
+
+<h2> 25.remove class</h2>
+
+
+
+<p class="bluee under pp3">Hello</p>
+  <p class="bluee under highlight2 pp3">and</p>
+  <p class="bluee under pp3">then</p>
+  <p class="bluee under pp3">Goodbye</p>
+
+
+
+<!--ex26--><hr>
+
+<h2> 26.has class</h2>
+
+<p class="p1">This paragraph is black and is the first paragraph.</p>
+<p class="selected">This paragraph is red and is the second paragraph.</p>
+<div id="result1">First paragraph has selected class: </div>
+<div id="result2">Second paragraph has selected class: </div>
+<div id="result3">At least one paragraph has selected class: </div>
+ 
+<!--ex27--><hr>
+
+<h2> 27.add class</h2>
+
+
+<p class="pp4">Hello</p>
+<p class="pp4">and</p>
+<p class="pp4">Goodbye</p>
+
+
+
+
+
+
+<!--ex28--><hr>
+
+<h2> 28.add class2</h2>
+
+
+<p class="pp5">Hello</p>
+<p class="pp5">and</p>
+<p class="pp5">Goodbye</p>
+
+
+
+
+
+<!--ex29--><hr>
+
+<h2> 29.css</h2>
+
+
+<span  id="result" class="spcss">&nbsp;</span>
+<div style="background-color:blue;" class="dcss"></div>
+<div style="background-color:rgb(15,99,30);" class="dcss"></div>
+<div style="background-color:#123456;" class="dcss"></div>
+<div style="background-color:#f11;" class="dcss"></div>
+
+
+
+<!--ex30--><hr>
+
+<h2 class="mm1"> 30.css 2</h2>
+
+
+<p id="result" class="pcss">&nbsp;</p>
+<div id="box1"  class="dbss">1</div>
+<div id="box2" class="dbss">2</div>
+<div id="box3" class="dbss">3</div>
+<div id="box4" class="dbss">4</div>
+
+
+<!--ex31--><hr>
+
+<h2 class="mm2"> 31.height</h2>
+
+
+<div class="dihi"></div>
+<div class="dihi"></div>
+<div class="dihi"></div>
+<div class="dihi"></div>
+<div class="dihi"></div>
+ 
+
+
+<!--ex32--><hr>
+
+<h2 class="mm3"> 32. inner height</h2>
+
+
+<div class="dinhi">d</div>
+<div class="dinhi">d</div>
+<div class="dinhi">d</div>
+<div class="dinhi">d</div>
+<div class="dinhi">d</div>
+
+
+
+<!--ex33--><hr>
+
+<h2 class="mm4"> 33. inner width</h2>
+
+
+<div class="dinwid">d</div>
+<div class="dinwid">d</div>
+<div class="dinwid">d</div>
+<div class="dinwid">d</div>
+<div class="dinwid">d</div>
+
+
+
+
+
+<!--ex34--><hr>
+
+<h2 class="mm5"> 34. position</h2>
+
+
+<div class="dp">
+  <p class="p2">Hello</p>
+</div>
+<p class="p3"></p>
+ 
+
+
+<!--ex35--><hr>
+
+<h2 class="mm5"> 35. scroll left</h2>
+
+<div class="demo"><h1>lalala</h1><p class="pscr">Hello</p></div>
+ 
+
+<!--ex36--><hr>
+
+<h2 class="mm5"> 36. outer height</h2>
+
+<div class="dohi">d</div>
+<div class="dohi">d</div>
+<div class="dohi">d</div>
+<div class="dohi">d</div>
+<div class="dohi">d</div>
+
+<!--ex37--><hr>
+
+<h2 class="mm5"> 37. dblclick event</h2>
+
+<div class="ddbl"></div>
+<span>Double click the block</span>
+ 
+
+
+<!--ex38--><hr>
+
+<h2 class="mm5"> 38. mouseover event</h2>
+
+<div class="out overout mo">
+  <span class="spmv">move your mouse</span>
+  <div class="in mv">
+  </div>
+</div>
+ 
+<div class="out enterleave mov">
+  <span class="spmv">move your mouse</span>
+  <div class="in mv">
+  </div>
+</div>
+
+
+
+<!--ex39--><hr>
+
+<h2 class="mm6"> 39. html</h2>
+
+
+<p class="pht">
+  <b>Click</b> to change the <span id="tag">html</span>
+</p>
+<p class="pht">
+  to a <span id="text">text</span> node.
+</p>
+<p class="pht">
+  This <button name="nada" class="bht">button</button> does nothing.
+</p>
+
+
+
+<!--ex40--><hr>
+
+<h2 class="mm6"> 40. remove attr</h2>
+
+
+<button class="btnra">Change title</button>
+<input type="text" title="hello there">
+<div id="logi"></div>
+
+
+
+
+
+
+	</div>
+
+
+
+
+
+
+<!--script links-->
+<script src="js/jquery-3.7.1.min.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap.bundle.min.js"></script>
+<script src="js/script.js"></script>
+</body>
+</html>
